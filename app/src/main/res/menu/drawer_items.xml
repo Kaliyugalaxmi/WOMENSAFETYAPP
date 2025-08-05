@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:id="@+id/home"
+            android:title="home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/language"
+            android:title="Langugae"
+            android:icon="@drawable/language"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/Changepassword"
+            android:title="Change password"
+            android:icon="@drawable/password"/>
+
+        <item
+            android:id="@+id/Emergencycontact"
+            android:title="Emergency contact"
+            android:icon="@drawable/phone"/>
+    </group>
+
+    <group
+        android:id="@+id/group3">
+
+
+        <item
+            android:id="@+id/Rateus"
+            android:title="Rate us"
+            android:icon="@drawable/rating"/>
+
+        <item
+            android:id="@+id/Logout"
+            android:title="Log out"
+            android:icon="@drawable/logout"/>
+    </group>
+
+
+</menu>

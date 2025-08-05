@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:fitsSystemWindows="true"
+    android:background="#e6d2f2"
+    tools:context=".Recordings">
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        android:contentDescription="back to home page"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Recordings"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#813cb9"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/list_recordings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="9dp"
+        android:padding="16dp"
+
+        />
+
+</LinearLayout>

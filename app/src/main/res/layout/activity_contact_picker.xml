@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ContactPicker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#F3E5F5">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Emergency Contacts"
+            android:textColor="#4A148C"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"/>
+
+        <!-- Contact 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="12dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:padding="30dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:id="@+id/contact1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_background"
+                    android:contentDescription="Contact 1"
+                    android:padding="10dp"
+                    android:src="@drawable/person" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="19dp">
+
+                    <TextView
+                        android:id="@+id/contact1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact 1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4A148C"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/contact1_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textColor="#4A148C"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/add1"
+                    android:contentDescription="Add Contact 1"
+                    android:src="@drawable/baseline_add_24"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="12dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:padding="30dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:id="@+id/contact2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_background"
+                    android:contentDescription="Contact 2"
+                    android:padding="10dp"
+                    android:src="@drawable/person" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="19dp">
+
+                    <TextView
+                        android:id="@+id/contact2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact 2"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4A148C"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/contact2_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textColor="#4A148C"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+                <ImageButton
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/add2"
+                    android:contentDescription="Add Contact 1"
+                    android:src="@drawable/baseline_add_24"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="12dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:padding="30dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:id="@+id/contact3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_background"
+                    android:contentDescription="Contact 1"
+                    android:padding="10dp"
+                    android:src="@drawable/person" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="19dp">
+
+                    <TextView
+                        android:id="@+id/contact3_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact 3"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4A148C"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/contact3_phone"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textColor="#4A148C"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/add3"
+                    android:contentDescription="Add Contact 1"
+                    android:src="@drawable/baseline_add_24"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Similar structure for Contact 2 and Contact 3 -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_yes"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

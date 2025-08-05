@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#e6d2f2"
+    android:orientation="vertical"
+    tools:context=".selectionPage">
+
+
+
+
+    <ImageView
+        android:id="@+id/logoutIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_700"
+        android:src="@drawable/lotus" />
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:text="SheSafe"
+        android:textColor="@color/purple_700"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <!-- Police Login Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPolice"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/button_yes"
+        android:text="LOGIN AS POLICE"
+        android:textColor="@color/white"/>
+
+    <!-- User Login Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonUser"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_yes"
+        android:text="LOGIN AS USER"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
